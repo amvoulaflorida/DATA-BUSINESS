@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formations pratiques en petits groupes sur Excel, SQL, Power BI et Statistiques. Sessions Juillet 2026.">
+    <title>DATABUSINESS | Naisia Amvoula</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">DATA<span>BUSINESS</span></a>
+            <button class="mobile-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#courses">Formations</a></li>
+                    <li><a href="#advantages">Méthode</a></li>
+                    <li><a href="#packs">Packs</a></li>
+                    <li><a href="#contact" class="btn-nav">Réserver une place</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section Épurée -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <span class="badge">Prochaines sessions : Juillet 2026</span>
+                    <h1>Devenez autonome en <br><span>Analyse de Données</span></h1>
+                    <p class="hero-subtitle">Formations structurées en petits groupes de 3 personnes maximum pour maîtriser Excel, SQL, Power BI et les statistiques appliquées.</p>
+                    
+                    <div class="hero-quick-infos">
+                        <div class="info-tag">3 personnes max.</div>
+                        <div class="info-tag">Cas réels métier</div>
+                        <div class="info-tag">Suivi personnalisé</div>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="https://wa.me/33745709500" class="btn btn-primary">S'inscrire maintenant</a>
+                        <a href="#courses" class="btn btn-secondary">Voir le catalogue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bloc d'information d'urgence -->
+        <section id="urgency" class="urgency-banner reveal">
+            <div class="container banner-flex">
+                <div class="banner-text">
+                    <h3>Sessions limitées pour Juillet 2026</h3>
+                    <p>Pour garantir un accompagnement de qualité, chaque module est strictement limité à <strong>3 apprenants simultanés</strong>. Les inscriptions ferment dès que les places sont attribuées.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Formations -->
+        <section id="courses" class="courses section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Modules de Formation</h2>
+                    <p class="section-subtitle">Des blocs de compétences ciblés pour aller droit à l'essentiel, quel que soit votre niveau actuel.</p>
+                </div>
+
+                <!-- Onglets de filtrage -->
+                <div class="tabs-container reveal">
+                    <button class="tab-btn active" data-target="all">Tous les modules</button>
+                    <button class="tab-btn" data-target="excel">Excel</button>
+                    <button class="tab-btn" data-target="sql">SQL</button>
+                    <button class="tab-btn" data-target="powerbi">Power BI</button>
+                    <button class="tab-btn" data-target="stats">Statistiques</button>
+                </div>
+
+                <div class="courses-grid">
+                    <!-- EXCEL DEBUTANT -->
+                    <article class="course-card reveal" data-category="excel">
+                        <div class="card-top">
+                            <span class="tag-cat tag-excel">Excel</span>
+                            <h3>Excel Débutant</h3>
+                            <p class="desc">Bases fondamentales de l'outil appliquées pas-à-pas à l'analyse de données métiers.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>2 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">69 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="Excel Débutant">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- EXCEL INTERMEDIAIRE -->
+                    <article class="course-card reveal" data-category="excel">
+                        <div class="card-top">
+                            <span class="tag-cat tag-excel">Excel</span>
+                            <h3>Excel Intermédiaire</h3>
+                            <p class="desc">Maîtrise des fonctions complexes, tableaux croisés dynamiques (TCD) et préparation des données.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>3 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">99 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="Excel Intermédiaire">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- SQL DEBUTANT -->
+                    <article class="course-card reveal" data-category="sql">
+                        <div class="card-top">
+                            <span class="tag-cat tag-sql">SQL</span>
+                            <h3>SQL Débutant</h3>
+                            <p class="desc">Introduction aux bases de données relationnelles et requêtes d'extraction de données fondamentales.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>3 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">99 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="SQL Débutant">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- SQL INTERMEDIAIRE -->
+                    <article class="course-card reveal" data-category="sql">
+                        <div class="card-top">
+                            <span class="tag-cat tag-sql">SQL</span>
+                            <h3>SQL Intermédiaire</h3>
+                            <p class="desc">Jointures complexes, sous-requêtes, fonctions d'agrégation et logique d'optimisation d'analyses.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>4 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">149 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="SQL Intermédiaire">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- POWER BI DEBUTANT -->
+                    <article class="course-card reveal" data-category="powerbi">
+                        <div class="card-top">
+                            <span class="tag-cat tag-bi">Power BI</span>
+                            <h3>Power BI Débutant</h3>
+                            <p class="desc">Prise en main de l'interface, connexion aux sources de données et création de visuels de base.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>3 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">99 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="Power BI Débutant">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- POWER BI INTERMEDIAIRE -->
+                    <article class="course-card reveal" data-category="powerbi">
+                        <div class="card-top">
+                            <span class="tag-cat tag-bi">Power BI</span>
+                            <h3>Power BI Intermédiaire</h3>
+                            <p class="desc">Modélisation de données, schémas en étoile et mise en œuvre des premières mesures en DAX.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>4 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">149 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="Power BI Intermédiaire">Sélectionner</a>
+                        </div>
+                    </article>
+
+                    <!-- STATISTIQUES -->
+                    <article class="course-card reveal" data-category="stats">
+                        <div class="card-top">
+                            <span class="tag-cat tag-stats">Statistiques</span>
+                            <h3>Statistiques pour l’Analyse</h3>
+                            <p class="desc">Principes et concepts statistiques indispensables pour interpréter correctement vos résultats.</p>
+                        </div>
+                        <div class="card-meta">
+                            <div class="meta-item">Durée : <strong>3 séances</strong></div>
+                            <div class="meta-item">Statut : <strong>Disponible</strong></div>
+                        </div>
+                        <div class="card-bottom">
+                            <div class="price-box">79 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-card" data-select="Statistiques pour l'Analyse de Données">Sélectionner</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Méthode (sans icônes) -->
+        <section id="advantages" class="advantages section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Une approche centrée sur la pratique</h2>
+                    <p class="section-subtitle">Des conditions de travail optimales pour acquérir des compétences directement opérationnelles.</p>
+                </div>
+
+                <div class="advantages-grid">
+                    <div class="adv-item reveal">
+                        <h3>Effectifs réduits</h3>
+                        <p>3 personnes maximum par session pour assurer un suivi individuel et répondre précisément à vos blocages.</p>
+                    </div>
+                    <div class="adv-item reveal">
+                        <h3>Cas réels d'entreprise</h3>
+                        <p>Pas d'exercices théoriques abstraits. Les ateliers s'appuient sur des problématiques concrètes du monde professionnel.</p>
+                    </div>
+                    <div class="adv-item reveal">
+                        <h3>Pratique immédiate</h3>
+                        <p>L'apprentissage passe par l'écriture directe de vos requêtes, fonctions et modèles de données lors de chaque séance.</p>
+                    </div>
+                    <div class="adv-item reveal">
+                        <h3>Documentation fournie</h3>
+                        <p>Vous conservez l'accès à l'ensemble des fichiers de travail, scripts types et supports construits ensemble.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Packs -->
+        <section id="packs" class="packs section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Offres Groupées</h2>
+                    <p class="section-subtitle">Associez plusieurs compétences complémentaires pour un apprentissage complet.</p>
+                </div>
+
+                <div class="packs-grid">
+                    <div class="pack-card reveal">
+                        <h3>Pack Débutant Data Analyst</h3>
+                        <p class="pack-desc">Les bases techniques indispensables pour débuter et structurer vos premières analyses de données.</p>
+                        <ul class="pack-list">
+                            <li>Excel Débutant</li>
+                            <li>SQL Débutant</li>
+                            <li>Power BI Débutant</li>
+                            <li>Statistiques pour l'Analyse</li>
+                        </ul>
+                        <div class="pack-footer">
+                            <div class="pack-price">249 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-action" data-select="Pack Débutant Data Analyst">Choisir ce pack</a>
+                        </div>
+                    </div>
+
+                    <div class="pack-card featured reveal">
+                        <h3>Pack Data Analyst Complet</h3>
+                        <p class="pack-desc">Le parcours complet pour acquérir une autonomie totale sur la chaîne de traitement et de visualisation.</p>
+                        <ul class="pack-list">
+                            <li>Excel Débutant + Intermédiaire</li>
+                            <li>SQL Débutant + Intermédiaire</li>
+                            <li>Power BI Débutant + Intermédiaire</li>
+                            <li>Module Statistiques Complet</li>
+                        </ul>
+                        <div class="pack-footer">
+                            <div class="pack-price">399 €</div>
+                            <a href="https://wa.me/33745709500" class="btn btn-action" data-select="Pack Data Analyst Complet">Choisir ce pack</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Inscription / Contact -->
+        <section id="contact" class="contact section-padding">
+            <div class="container grid-2">
+                <div class="contact-text reveal">
+                    <h2 class="section-title">Planifier vos séances</h2>
+                    <p class="lead">Pour toute question sur le programme ou pour organiser votre calendrier de formation pour Juillet, vous pouvez me contacter directement.</p>
+                    
+                    <div class="direct-channels">
+                        <div class="channel-item">
+                            <div>
+                              <span>Téléphone & WhatsApp</span>
+                              <a href="33 7 45 70 95 00" style="text-decoration: none;">
+                              <strong>33 7 45 70 95 00</strong>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="channel-item">
+                            <div>
+                                <span>Adresse email</span>
+                                <strong>naisiaamvoula@gmail.com</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <p>Retrouvez-moi également sur les réseaux professionnels :</p>
+                        <div class="social-flex">
+                            <a href="https://www.linkedin.com/in/amvoula-naisia/" target="_blank" rel="noopener" class="social-btn ln">LinkedIn</a>
+                            <a href="https://tiktok.com/@amvoula_naisia" target="_blank" rel="noopener" class="social-btn tk">TikTok</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-holder reveal">
+                    <!-- L'action pointe vers l'API de Web3Forms -->
+<form id="booking-form" action="https://api.web3forms.com/submit" method="POST">
+    
+    <!-- TA CLÉ D'ACCÈS WEB3FORMS CONFIGURÉE -->
+    <input type="hidden" name="access_key" value="ae3072c4-99ee-4fed-8c5e-d42e689ca389">
+    
+    <!-- Personnalisation du sujet de l'e-mail que tu vas recevoir -->
+    <input type="hidden" name="subject" value="Nouvelle inscription / Contact depuis le Portfolio">
+
+    <div class="form-group">
+        <label for="fullname">Nom complet</label>
+        <input type="text" id="fullname" name="Nom" required>
+        <span class="error-msg">Ce champ est requis.</span>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="Email" required>
+        <span class="error-msg">Veuillez entrer un e-mail valide.</span>
+    </div>
+
+    <div class="form-group">
+        <label for="selectedcourse">Formule souhaitée</label>
+        <select id="selectedcourse" name="Formation_Choisie" required>
+            <option value="">-- Choisissez une option --</option>
+            <option value="Excel Avançé">Excel Débutant</option>
+            <option value="SQL Ecosystem">Excel Intermédiaire</option>
+            <option value="Power BI Mastery">SQL Débutant</option>
+            <option value="Excel Avançé">SQL Intermédiaire</option>
+            <option value="SQL Ecosystem">Power BI Débutant</option>
+            <option value="Power BI Mastery">Power BI Intermédiaire</option>
+            <option value="Power BI Mastery">Statistiques pour l’Analyse</option>
+        </select>
+        <span class="error-msg">Veuillez sélectionner une option.</span>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+        <span class="error-msg">Ce champ est requis.</span>
+    </div>
+
+    <button type="submit" class="btn-submit-form">Envoyer ma demande</button>
+    
+    <div id="status-alert" class="alert-box success">
+        Merci ! Votre message a bien été envoyé.
+    </div>
+</form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container text-center">
+            <p>&copy; 2026 DATA BUSINESS. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <button id="scroll-top" aria-label="Remonter en haut">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
